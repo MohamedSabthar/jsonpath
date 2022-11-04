@@ -1,0 +1,29 @@
+[package]
+org = "xlibb"
+name = "jsonpath"
+version = "@toml.version@"
+distribution = "2201.2.0"
+
+[[platform.java11.dependency]]
+path = "../native/build/libs/jsonpath-native-@project.version@.jar"
+groupId = "io.ballerina.xlibb"
+artifactId = "jsonpath-native"
+version = "@toml.version@"
+
+[[platform.java11.dependency]]
+path = "./lib/json-path-@jsonpath.version@.jar"
+groupId = "com.jayway.jsonpath"
+artifactId = "json-path"
+version = "@jsonpath.version@"
+
+[[platform.java11.dependency]]
+path = "./lib/json-smart-@jsonsmart.version@.jar"
+groupId = "net.minidev.json"
+artifactId = "json-smart"
+version = "@jsonsmart.version@"
+
+[[platform.java11.dependency]]
+path = "./lib/accessors-smart-@accessors.version@.jar"
+groupId = "net.minidev.json"
+artifactId = "accessors-smart"
+version = "@accessors.version@"
