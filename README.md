@@ -104,7 +104,5 @@ public function main() returns error? {
 }
 ```
 
-
-
 > **_NOTE:_** 
 This module uses the java implementation of [JsonPath](https://github.com/json-path/JsonPath). To know more about supported operators/functions in the json path expression see [JsonPath README.md](https://github.com/json-path/JsonPath/blob/master/README.md)
