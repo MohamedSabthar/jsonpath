@@ -1,6 +1,6 @@
 import ballerina/jballerina.java;
 
-# Extract details from the given json value using provided query expression
+# Extract details from the given JSON value using the provided query expression
 # + 'json - JSON value
 # + query - JSON path expression
 # + return - extracted details as JSON value, a jsonpath:Error otherwise
