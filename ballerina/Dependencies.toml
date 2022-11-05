@@ -49,7 +49,7 @@ modules = [
 ]
 
 [[package]]
-org = "xlibb"
+org = "crates"
 name = "jsonpath"
 version = "1.0.0"
 dependencies = [
@@ -58,7 +58,7 @@ dependencies = [
 	{org = "ballerina", name = "test"}
 ]
 modules = [
-	{org = "xlibb", packageName = "jsonpath", moduleName = "jsonpath"}
+	{org = "crates", packageName = "jsonpath", moduleName = "jsonpath"}
 ]
 
 
