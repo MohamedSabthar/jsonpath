@@ -3,6 +3,9 @@ org = "crates"
 name = "jsonpath"
 version = "1.0.0"
 distribution = "2201.2.0"
+authors = ["Mohamed Sabthar (@MohamedSabthar)"]
+repository = "https://github.com/MohamedSabthar/jsonpath"
+license = ["Apache-2.0"]
 
 [[platform.java11.dependency]]
 path = "../native/build/libs/jsonpath-native-1.0.0-SNAPSHOT.jar"
