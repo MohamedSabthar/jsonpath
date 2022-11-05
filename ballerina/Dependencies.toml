@@ -29,19 +29,6 @@ modules = [
 
 [[package]]
 org = "ballerina"
-name = "jsonpath"
-version = "1.0.0"
-dependencies = [
-	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "test"}
-]
-modules = [
-	{org = "ballerina", packageName = "jsonpath", moduleName = "jsonpath"}
-]
-
-[[package]]
-org = "ballerina"
 name = "lang.value"
 version = "0.0.0"
 scope = "testOnly"
@@ -59,6 +46,19 @@ dependencies = [
 ]
 modules = [
 	{org = "ballerina", packageName = "test", moduleName = "test"}
+]
+
+[[package]]
+org = "xlibb"
+name = "jsonpath"
+version = "1.0.0"
+dependencies = [
+	{org = "ballerina", name = "io"},
+	{org = "ballerina", name = "jballerina.java"},
+	{org = "ballerina", name = "test"}
+]
+modules = [
+	{org = "xlibb", packageName = "jsonpath", moduleName = "jsonpath"}
 ]
 
 

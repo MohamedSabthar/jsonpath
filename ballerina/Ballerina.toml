@@ -1,5 +1,5 @@
 [package]
-org = "ballerina"
+org = "xlibb"
 name = "jsonpath"
 version = "1.0.0"
 distribution = "2201.2.0"
