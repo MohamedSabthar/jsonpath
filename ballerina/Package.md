@@ -9,7 +9,7 @@ The following examples show the usage of the module.
 #### Example 1: Sample query experession 
 ```ballerina
 import ballerina/io;
-import xlibb/jsonpath as jp;
+import crates/jsonpath as jp;
 
 json store = {
     store: {
@@ -84,7 +84,7 @@ public function main() returns error? {
 #### Example 2: Data binding after trasforming json
 ```ballerina
 import ballerina/io;
-import xlibb/jsonpath as jp;
+import crates/jsonpath as jp;
 
 json store = ...; //same as above, omitted for brevity
 

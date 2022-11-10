@@ -51,7 +51,7 @@ modules = [
 [[package]]
 org = "crates"
 name = "jsonpath"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "jballerina.java"},

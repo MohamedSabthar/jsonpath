@@ -6,6 +6,7 @@ distribution = "2201.2.0"
 authors = ["Mohamed Sabthar (@MohamedSabthar)"]
 repository = "https://github.com/MohamedSabthar/jsonpath"
 license = ["Apache-2.0"]
+keywords=["json", "json path", "json-transform", "json transform", "json to json", "json-convert", "json convert"]
 
 [[platform.java11.dependency]]
 path = "../native/build/libs/jsonpath-native-@project.version@.jar"
